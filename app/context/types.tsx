@@ -1,0 +1,2 @@
+export const SIDEBARTRUE = "SIDEBARTRUE";
+export const SIDEBARFALSE = "SIDEBARFALSE";

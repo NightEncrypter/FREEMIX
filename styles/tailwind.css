@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: rgb(187, 186, 186);
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(purple, black);
+  border-radius: 25px;
+}
+
+.main_img {
+  /* background: url("./Iron.jpg") no-repeat center center/cover; */
+  /* height: 100vh; */
+  /* width: 100%; */
+  /* background-size: cover; */
+  z-index: -1;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.rgba_purple {
+  background: rgba(147, 17, 151, 0.707);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.translater::after {
+  transform: rotate(45deg), translate(10px, 10px);
+}
+.translater::before {
+  transform: rotate(45deg), translate(10px, -10px);
+}
